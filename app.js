@@ -5,7 +5,7 @@ const lists = document.querySelector('.lists');
 function constructer(todo){
     let li = document.createElement('li');
     li.innerText = todo;
-    lists.appendChild(li)
+    lists.appendChild(li);
 }
 
 add.addEventListener("click",()=>{
@@ -14,7 +14,7 @@ add.addEventListener("click",()=>{
     constructer(todo);
     input.value = '';
     } else{
-        alert('할 일이 없나요?')
+        alert('할 일이 없나요?');
     }
 });
 
